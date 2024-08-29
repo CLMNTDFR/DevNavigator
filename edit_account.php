@@ -5,13 +5,13 @@ require_once(__DIR__ . '/databaseconnect.php');
 require_once(__DIR__ . '/variables.php');
 require_once(__DIR__ . '/functions.php');
 
-// Vérifie si l'utilisateur est connecté
+// Check if the user is logged in
 if (!isset($_SESSION['LOGGED_USER'])) {
     header("Location: login.php");
     exit();
 }
 
-// Récupère les informations de l'utilisateur depuis la session
+// Get user information from the session
 $user = $_SESSION['LOGGED_USER'];
 ?>
 
@@ -32,7 +32,6 @@ $user = $_SESSION['LOGGED_USER'];
     <link href="css/dev-navigator-style.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Include your header here -->
     <?php include('header.php'); ?>
 
     <main>

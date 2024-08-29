@@ -10,6 +10,8 @@
 5. [License](#license)
 6. [Contributing](#contributing)
 7. [Contact](#contact)
+<br><br>
+[![Capture-d-cran-2024-08-29-105121.png](https://i.postimg.cc/4NV7npJq/Capture-d-cran-2024-08-29-105121.png)](https://postimg.cc/kBMXp6Rv)
 
 ## Concept
 
@@ -71,18 +73,63 @@ Open your web browser and navigate to http://localhost/your_project_folder to vi
 - Change password securely.
 - Delete account functionality.
 
+<br>
+
+[![Capture-d-cran-2024-08-29-105419.png](https://i.postimg.cc/HLxk0Mgp/Capture-d-cran-2024-08-29-105419.png)](https://postimg.cc/zysN8VvM)
+
+<br>
+
+[![Capture-d-cran-2024-08-29-105519.png](https://i.postimg.cc/k5zqxhsc/Capture-d-cran-2024-08-29-105519.png)](https://postimg.cc/67rkKcD2)
+
+<br>
+
+[![Capture-d-cran-2024-08-29-105726.png](https://i.postimg.cc/c1QtLQ1j/Capture-d-cran-2024-08-29-105726.png)](https://postimg.cc/F1HHPkLg)
+
+<br>
+
+[![Capture-d-cran-2024-08-29-105745.png](https://i.postimg.cc/PqpPsDFS/Capture-d-cran-2024-08-29-105745.png)](https://postimg.cc/XZWV9rW5)
+
+<br>
+
 **Contact Form:**
 
 - Submit inquiries with validation and data handling.
 - Confirmation of received messages.
+<br>
+
+[![Capture-d-cran-2024-08-29-105327.png](https://i.postimg.cc/PrsNGNm4/Capture-d-cran-2024-08-29-105327.png)](https://postimg.cc/RqdvKSp6)
+
+<br>
+
+[![Capture-d-cran-2024-08-29-110532.png](https://i.postimg.cc/hPBxL23c/Capture-d-cran-2024-08-29-110532.png)](https://postimg.cc/5js61SVR)
+
+<br>
 
 **Content Management:**
 
 - Manage and view articles (depending on your implementation).
 
+<br>
+
+[![Capture-d-cran-2024-08-29-105601.png](https://i.postimg.cc/7ZQkkQFk/Capture-d-cran-2024-08-29-105601.png)](https://postimg.cc/5XvG5p97)
+
+<br>
+
+[![Capture-d-cran-2024-08-29-105634.png](https://i.postimg.cc/qqGPZmsW/Capture-d-cran-2024-08-29-105634.png)](https://postimg.cc/2LV917Xx)
+
+<br>
+
+[![Capture-d-cran-2024-08-29-105706.png](https://i.postimg.cc/t4F30LZ1/Capture-d-cran-2024-08-29-105706.png)](https://postimg.cc/Js4DZYQm)
+
+<br>
+
 **Responsive Design:**
 
 - Mobile-friendly interface using Bootstrap.
+
+<br>
+
+[![devscreenmobile.png](https://i.postimg.cc/jjKkB65b/devscreenmobile.png)](https://postimg.cc/68j0vvnj)
 
 ## License
 

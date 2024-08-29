@@ -13,22 +13,22 @@ if (isset($postData['email']) && isset($postData['password'])) {
     if (!filter_var($postData['email'], FILTER_VALIDATE_EMAIL)) {
         $_SESSION['LOGIN_ERROR_MESSAGE'] = 'A valid email is required to submit the form.';
     } else {
-        // Récupérer l'utilisateur correspondant à l'email
+        // Retrieve the user corresponding to the email
         $stmt = $mysqlClient->prepare('SELECT * FROM users WHERE email = :email');
         $stmt->bindParam(':email', $postData['email']);
         $stmt->execute();
         $user = $stmt->fetch(PDO::FETCH_ASSOC);
 
-        // Vérification du mot de passe
+        // Password verification
         if ($user && password_verify($postData['password'], $user['password'])) {
-            // Mot de passe correct
+            // Correct password
             $_SESSION['LOGGED_USER'] = [
                 'user_name' => $user['user_name'],
                 'email' => $user['email'],
                 'user_id' => $user['user_id'],
             ];
         } else {
-            // Mot de passe incorrect ou utilisateur non trouvé
+            // Incorrect password or user not found
             $_SESSION['LOGIN_ERROR_MESSAGE'] = sprintf(
                 'The information sent does not allow you to be identified: (%s/%s)',
                 htmlspecialchars($postData['email']),

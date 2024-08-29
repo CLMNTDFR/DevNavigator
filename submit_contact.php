@@ -5,10 +5,9 @@ require_once(__DIR__ . '/databaseconnect.php');
 require_once(__DIR__ . '/variables.php');
 require_once(__DIR__ . '/functions.php');
 
-// Récupération des données du formulaire
 $postData = $_POST;
 
-// Validation des données reçues
+// Data validation
 if (
     !isset($postData['contact-email'])
     || !filter_var($postData['contact-email'], FILTER_VALIDATE_EMAIL)
