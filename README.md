@@ -13,6 +13,10 @@
 <br><br>
 [![Capture-d-cran-2024-08-29-105121.png](https://i.postimg.cc/4NV7npJq/Capture-d-cran-2024-08-29-105121.png)](https://postimg.cc/kBMXp6Rv)
 
+<br>
+
+> [**Live Demo of DevNavigator**](http://devnavigator.kesug.com/)
+
 ## Concept
 
 DevNavigator is a web application designed to allow developers to share development-related content and could even serve as an information monitoring tool.<br><br>It offers user accounts, content management and a contact form for easy communication.<br><br>The app is designed with a focus on simplicity and user experience, providing a platform where users can manage their account settings, edit their profile and write blog posts about the technologies that support them. interested.<br><br>A simple and efficient CRUD system allows instinctive use.
